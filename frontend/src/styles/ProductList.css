@@ -1,0 +1,14 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px;
+}
+
+html {
+  --dark-gray: rgb(90, 90, 90);
+  --light-gray: rgb(148, 148, 148);
+  --focus-blue: rgb(69, 159, 189);
+}
+
+
